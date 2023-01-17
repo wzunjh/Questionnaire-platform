@@ -2,11 +2,6 @@
 
     此代码仓库为基于 Spring Boot、Vue 实现的后端仓库
 
-[![star](https://gitee.com/wkeyuan/DWSurvey/badge/star.svg?theme=dark)](https://gitee.com/wkeyuan/DWSurvey/stargazers)
-[![fork](https://gitee.com/wkeyuan/DWSurvey/badge/fork.svg?theme=dark)](https://gitee.com/wkeyuan/DWSurvey/members)
-![GitHub Repo stars](https://img.shields.io/github/stars/wkeyuan/DWSurvey?style=social)
-![GitHub forks](https://img.shields.io/github/forks/wkeyuan/DWSurvey?style=social)
-
 DWSurvey是一款简单、高效、成熟、稳定、专业的开源问卷系统，自2012年启动至今经过9年的积累，已经形成一套完善的基于 JAVA WEB 的开源问卷表单解决方案。
 
 ## 特性
