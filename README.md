@@ -33,42 +33,6 @@ DWSurvey是一款简单、高效、成熟、稳定、专业的开源问卷系统
 | :-----| ----: | :----: | :----: | :----: | 
 | IE6+,Edge | 支持 | 支持 | 支持 | 支持 | 
 
-
-### 各技术方案简介
-
-<table>
-<tr><th><strong>方案A</strong></th><th colspan="2" align="left"><strong>前后端分离，基于 Vue、Element ui、Spring Boot</strong></th></tr>
-<tr><td colspan="3">方案特性：基于VUE、前后分离开发更容易，部署维护更简单</td></tr>
-<tr><td rowspan="2">前端</td><td>Gitee</td><td><a href="https://gitee.com/wkeyuan/dwsurvey-vue">https://gitee.com/wkeyuan/dwsurvey-vue</a></td></tr>
-<tr><td>GitHub</td><td><a href="https://github.com/wkeyuan/DWSurvey_Vue">https://github.com/wkeyuan/DWSurvey_Vue</a></td></tr>
-<tr><td rowspan="2">后端</td><td>Gitee</td><td><a href="https://gitee.com/wkeyuan/DWSurvey">https://gitee.com/wkeyuan/DWSurvey</a></td></tr>
-<tr><td>GitHub</td><td><a href="https://github.com/wkeyuan/DWSurvey">https://github.com/wkeyuan/DWSurvey</a></td></tr>
-
-<tr><th><strong>方案B</strong></th><th colspan="2" align="left"><strong>Spring Boot + JSP</strong></th></tr>
-<tr><td colspan="3">方案特性: 原生JS+HTML技术，支持更多浏览器，如IE6</td></tr>
-<tr><td colspan="1">Gitee</td><td colspan="2"><a href="https://gitee.com/wkeyuan/dwsurvey-springboot-jsp">https://gitee.com/wkeyuan/dwsurvey-springboot-jsp</a></td></tr>
-<tr><td colspan="1">GitHub</td><td colspan="2"><a href="https://gitee.com/wkeyuan/dwsurvey-springboot-jsp">https://gitee.com/wkeyuan/dwsurvey-springboot-jsp</a></td></tr>
-
-<tr><th><strong>方案C</strong></th><th colspan="2" align="left"><strong>Struts2 + JSP</strong></th></tr>
-<tr><td colspan="3">方案特性: 原生JS+HTML技术，支持更多浏览器，如IE6 |</td></tr>
-<tr><td colspan="1">Gitee</td><td colspan="2"><a href="https://gitee.com/wkeyuan/dwsurvey-struts2-jsp">https://gitee.com/wkeyuan/dwsurvey-struts2-jsp</a></td></tr>
-<tr><td colspan="1">GitHub</td><td colspan="2"><a href="https://gitee.com/wkeyuan/dwsurvey-struts2-jsp">https://gitee.com/wkeyuan/dwsurvey-struts2-jsp</a></td></tr>
-</table>
-
-
-## 各版本简介
-
-我们提供各种不版本及服务，保证您不同场景的需求都得到满足
-
-| 版本  | 特性及地址 |  
-| :-----| ---- |  
-| 社区版 | 源码全量开源，可独立部署，可二次开发 | 
-| 官网地址 | [http://www.diaowen.net](http://www.diaowen.net) |
-| 企业版 | 源码全量开源，前后端分离，可独立部署，可二次开发 |
-| 企业版地址 | [http://ent.surveyform.cn](http://ent.surveyform.cn) |
-| 在线平台 | 提供标准API，可快速集成到应用中，功能更丰富，不需要部署，可直接发布问卷收集 |
-| 平台地址 | [https://www.surveyform.cn](https://www.surveyform.cn) |
-
 下面是如何使用Spring Boot方案的快速指南。
 
 ## 本地开发
@@ -144,28 +108,6 @@ mvn package
 ![数据统计](src/main/resources/static/img/WX20211203-092439@2x.png)
 
 ![原始数据](src/main/resources/static/img/WX20211203-092458@2x.png)
-
-## 有问题怎么办？
-
-对于调问网问卷系统安装及使用的问题，可以在用户交流群里，向作者或其它同学提问。
-
-调问网交流QQ群 ```群1：635994795(满)```，```群2：301105635(满)```， ```群3：811287103(满)```，群4：398556555（可加）（加群时请说明来由）
-
-微信公众号
-
-<img src="http://www.diaowen.net/images/dw_ewm.png" alt="图片替换文本" width="200" height="200" align="top" />
-
-## 源代码地址
-
-gitee: http://gitee.com/wkeyuan/DWSurvey
-
-github: https://github.com/wkeyuan/DWSurvey
-
-## 开源协议
-
-DWSurvey以通用公共许可证AGPL3.0为开源协议，需要更优质的服务可以购买我们的商业版与企业版！
-
-- - -
 
 ## 关于调问网
 
