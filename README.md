@@ -41,11 +41,7 @@
 
 2、创建数据库进行初始化
 
-数据库脚本在resources/sql/目录下的dwsurvey.sql数据库脚本文件，如下：
-
-    https://gitee.com/wkeyuan/DWSurvey/blob/master/src/main/resources/conf/sql/
-
-说明：升级后的数据库与老版本兼容
+数据库脚本在根目录下的dwsurvey.sql数据库脚本文件
 
 3、用IDEA打开，进行本地开发
 
