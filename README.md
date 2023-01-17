@@ -9,55 +9,7 @@
 
 DWSurvey是一款简单、高效、成熟、稳定、专业的开源问卷系统，自2012年启动至今经过9年的积累，已经形成一套完善的基于 JAVA WEB 的开源问卷表单解决方案。
 
-<div style="padding: 10px;border-left:solid 6px #278bee;background: #f3f5f7;font-size: 16px;color: #2c3e50;">
-<div style="font-weight: 600;padding: 10px;"> 🎉🎉🎉  企业版 </div>
-<div>
-全新的 <strong>企业版</strong> 已经发布，前后端分别采用 React、Ant design、Spring Boot，详情可前往体验
-<p>调问网官网地址：<a href="https://www.diaowen.net">https://www.diaowen.net</a></p>
-<p><strong>企业版体验地址：<a href="https://ent.surveyform.cn">https://ent.surveyform.cn</a></strong></p>
-</div>
-</div>
-<hr/>
-<div style="padding: 10px;border-left:solid 6px #42b983;background: #f3f5f7;font-size: 16px;color: #2c3e50;">
-<div style="font-weight: 600;padding: 10px;"> ☀️☀️☀️  社区版 </div>
-<div>
-️ 全新的 <strong>社区版</strong> 也已经发布，前后端分别采用Vue、ElementUI、Spring Boot，详情可前往体验。
-<p>社区版文档地址：<a href="https://www.diaowen.net/docs">https://www.diaowen.net/docs</a></p>
-
-[comment]: <> (<p>社区版体验地址：<a href="https://oss.surveyform.cn">https://oss.surveyform.cn</a></p>)
-</div>
-</div>
-
-<p style="color: #333;">后续我们将持续迭代更新，<strong>并有专人维护</strong>，敬请关注，别忘了<a href="https://gitee.com/wkeyuan/DWSurvey">点下源码仓库</a> 右上角Star关注，便于下次查找。</p>
-
 ### 快速安装（一行命令完成）
-
-1､下载调问问卷社区版安装包
-
-最新的JAR包放在QQ群3（`811287103`已满），请加群4（`398556555`），加群备注`安装包`。
-
-2、输入启动命令
-
-``` cmd
-    java  -Dfile.encoding=utf-8 -jar dwsurvey-oss-vue-v.*.*.jar --server.port=8080 --spring.datasource.username=root --spring.datasource.password=123456
-```
-3、打开浏览器访问 http://localhost:8080，输入账号密码： service@diaowen.net/123456
-
-
-``` js
-    //可选，文件编码，windows上如果有乱码则使用，linux一般不会出现
-    -Dfile.encoding=utf-8 
-    //必填，安装包名称， 后面的v.*.*.jar依据您下载的最新安装包来定。
-    dwsurvey-oss-vue-v.*.*.jar
-    //可选，指定启动服务占用的端口，默认值8080
-    --server.port=8080 
-    //可选，数据库账号，默认值为root
-    --spring.datasource.username=root 
-    //可选，数据库账密码，默认值123456,.
-    --spring.datasource.password=123456
-```
-
-更详细参数说明请查看[配置说明文档](http://www.diaowen.net/docs/)
 
 ## 特性
 
