@@ -41,14 +41,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--添加tomcat依赖模块.-->
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>-->
-
-        <!-- 添加servlet依赖模块 -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -186,12 +178,6 @@
             <artifactId>commons-codec</artifactId>
             <version>1.11</version>
             <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.4</version>
         </dependency>
 
         <dependency>

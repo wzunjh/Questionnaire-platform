@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"net.diaowen.common","net.diaowen.dwsurvey"})
-//@EnableTransactionManagement
 public class DwsurveyApplication {
 
     public static void main(String[] args) {
